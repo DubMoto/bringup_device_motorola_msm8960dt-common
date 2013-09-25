@@ -103,6 +103,11 @@ BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril/
 
 BOARD_SEPOLICY_DIRS += \
     $(LOCAL_PATH)/sepolicy
+	
+# TWRP
+TW_BRIGHTNESS_PATH := /sys/class/backlight/lcd-backlight/brightness
+TW_MAX_BRIGHTNESS := 126
+TW_THEME := portrait_hdpi
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
