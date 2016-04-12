@@ -171,6 +171,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.power.rc \
     init.recovery.qcom.rc \
+    libinit_msm \
     ueventd.qcom.rc
 
 # Support
