@@ -177,6 +177,10 @@ PRODUCT_PACKAGES += \
     libcurl \
     libxml2
 
+# TWRP
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/twrp.fstab:recovery/root/etc/twrp.fstab
+
 # Wifi
 PRODUCT_PACKAGES += \
     dhcpcd.conf \
