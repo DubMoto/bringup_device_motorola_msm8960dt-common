@@ -5,6 +5,13 @@ lib/libbtnv.so
 
 # Audio
 lib/libacdbloader.so
+lib/libaudiopolicymanagerdefault.so
+lib/libaudiopolicyenginedefault.so
+lib/libaudiopolicymanager.so
+lib/libaudiopolicyservice.so
+lib/hw/audio.primary.default.so
+lib/hw/audio.primary.msm8960.so
+lib/hw/audio_policy.default.so
 
 # Audio firmware
 etc/firmware/aonvr1.bin
